@@ -1,11 +1,12 @@
 # DynamicMailSystem Spring Boot
 
-A Spring Boot application for sending emails to company employees, staff, executives, and customers, with user registration and action logging.
+A Spring Boot application for sending emails to company employees, staff, executives, and customers, with user registration, action logging, and a contact form for users to email the company.
 
 ## Features
 
 - **Send Emails:** Send emails to employees, staff, executives, or all groups via web interface.
 - **User Registration:** Register users as employee, staff, executive, or customer.
+- **Contact Company:** Any user can send a message to the company using a contact form.
 - **Database Integration:** Uses PostgreSQL to store users and log email actions.
 - **Email Logging:** All email actions are logged in the `email_actions` table.
 
@@ -89,8 +90,9 @@ mvn spring-boot:run
 ### 5. Usage
 
 - Open [http://localhost:8081/](http://localhost:8081/) for the main page.
-- Click "Register User" to add a new user.
+- Click **Register User** to add a new user.
 - Use the buttons to send emails to different groups.
+- Click **Contact Company** to send a message to the company from any user.
 
 ## License
 
